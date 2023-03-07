@@ -1,0 +1,26 @@
+{
+    "pages": [
+        {
+            "name": "About",
+            "route": "/about",
+            "tags": [
+                "#meta #work"
+            ],
+            "metadata": {
+                "createdTimestamp": "3/7/2023",
+                "lastUpdatedTimestamp": "3/7/2023"
+            }
+        },
+        {
+            "name": "temp",
+            "route": "temp",
+            "tags": [
+                "meta"
+            ],
+            "metadata": {
+                "createdTimestamp": "3/7/2023",
+                "lastUpdatedTimestamp": "3/7/2023"
+            }
+        }
+    ]
+}

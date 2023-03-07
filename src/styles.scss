@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+@import "/src/variables";
+
+body {
+    background-color: $dark-4;
+    margin: 0 0 0 0;
+}  
+
+div {
+    color: $white;
+    font-family: $roboto;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: $white;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: $roboto;
+    color: $white;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: $roboto;
+    color: $white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.meta {
+    font-family: $roboto;
+    color: $yellow;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: $roboto;
+    color: $white;
+    font-size: 16px;
+    margin: 15px 0 15px 0;
+    padding: 0;
+}
+
+a {
+    font-family: $roboto;
+    color: $white;
+    text-decoration: none;
+}
+
+.orange {
+    background: $orange;
+}
+
+.red {
+    background: $red;
+}
+ 
+.green {
+    background: $green;
+}
+
+.teal {
+    background: $teal;
+}
+
+.blue {
+    background: $blue;
+}
+
+.orange-text {
+    color: $orange;
+}
+
+.red-text {
+    color: $red;
+}
+ 
+.green-text {
+    color: $green;
+}
+
+.teal-text {
+    color: $teal;
+}
+
+.blue-text {
+    color: $blue;
+}

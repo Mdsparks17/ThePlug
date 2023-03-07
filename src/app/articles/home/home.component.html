@@ -1,0 +1,14 @@
+<h2>Articles</h2>
+<hr>
+
+<div *ngFor="let page of mypages.pages">
+    <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
+        <div class="card">
+            <div class="container">
+                <h3>{{ page.name }}</h3>
+                <p>{{ page.metadata.lastUpdatedTimestamp }}</p>
+                <!-- <p>{{ page.name }}</p> -->
+            </div>
+        </div>
+    </a>
+</div>
