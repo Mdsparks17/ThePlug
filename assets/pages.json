@@ -1,10 +1,10 @@
 {
     "pages": [
         {
-            "name": "About",
-            "route": "/about",
+            "name": "How to Become a Software Developer",
+            "route": "/how-to-become-a-software-developer",
             "tags": [
-                "#meta #work"
+                "#work #software #tutorial"
             ],
             "metadata": {
                 "createdTimestamp": "3/7/2023",
@@ -12,10 +12,10 @@
             }
         },
         {
-            "name": "temp",
-            "route": "temp",
+            "name": "About",
+            "route": "/about",
             "tags": [
-                "meta"
+                "#meta #work"
             ],
             "metadata": {
                 "createdTimestamp": "3/7/2023",
