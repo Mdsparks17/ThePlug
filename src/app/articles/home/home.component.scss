@@ -1,5 +1,11 @@
 @import "/src/variables";
 
+a {
+    font-family: $roboto;
+    color: $white;
+    text-decoration: none;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -10,7 +16,7 @@
     background-color: $dark-3;
     height: 100px;
     width: 100%;
-    border-radius: 16px;
+    border-radius: 8px;
 
     transition-duration: 0.3s;
 }
