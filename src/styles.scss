@@ -18,9 +18,9 @@ body {
     align-items: center;
 }
 
-a { font-family: $font; color: $white; text-decoration: underline; }
+a { font-family: $font; color: $yellow; text-decoration: underline; }
 
-a:hover { color: $offwhite; }
+a:hover { color: $dark-1; }
 
 div { color: $white; font-family: $font; }
 
@@ -30,6 +30,7 @@ p {
     font-size: 16px;
     margin: 0 0 0 0;
     padding: 15px 0 15px 0;
+    line-height: 20px;
 }
 
 hr {
@@ -63,6 +64,7 @@ h3 {
     margin-left: 15px;
     padding-left: 5px;
     border-left: 1px solid;
+    color: $green;
 }
 
 // FORMATTING
