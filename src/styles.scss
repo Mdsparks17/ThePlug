@@ -20,7 +20,7 @@ body {
 
 a { font-family: $font; color: $yellow; text-decoration: underline; }
 
-a:hover { color: $dark-1; }
+a:hover { color: $offwhite; }
 
 div { color: $white; font-family: $font; }
 
@@ -93,4 +93,22 @@ h3 {
 
 .meta-text {
     color: $offwhite;
+}
+
+// CUSTOMIZATION
+
+// toolbar
+::-webkit-scrollbar { width: 10px; }
+
+::-webkit-scrollbar-track { background: $dark-4; }
+
+::-webkit-scrollbar-thumb { background: $dark-1; border-radius: 4px; margin: 4px 0 4px 0; }
+
+::-webkit-scrollbar-thumb:hover { background: $offwhite; }
+
+// highlight
+
+::selection {
+    background-color: $offwhite;
+    color: $dark-4;
 }
