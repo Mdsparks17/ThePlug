@@ -4,9 +4,21 @@
     display: flex;
     justify-content: center;
     
-    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 
     background-color: $dark-4;
+}
+
+@media only screen and (max-width: 750px) {
+    .content {
+    }
+    
+}
+@media only screen and (min-width: 750px) {
+    .content {
+        width: 750px;
+    }
 }
 
 .container {
@@ -14,9 +26,9 @@
     flex-direction: column;
 
     height:100%;
-    width: 750px;
+    width: 100%;
 
-    padding: 5px;
+    margin: 0 5px 0 5px;
 
     background-color: $dark-4;
 }
