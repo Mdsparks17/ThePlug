@@ -1,7 +1,7 @@
 @import "/src/variables";
 
 a {
-    font-family: $roboto;
+    font-family: $font;
     color: $white;
     text-decoration: none;
 }
@@ -35,10 +35,13 @@ a {
     padding: 15px;
 }
 
-p {
-    margin: 0;
+h3 {
+    margin: 0 0 4px 0;
+    padding: 0 0 0 0;
 }
 
-h3 {
-    margin: 0;
+p {
+    margin: 0 0 4px 0;
+    padding: 0 0 0 0;
 }
+

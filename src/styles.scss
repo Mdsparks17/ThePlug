@@ -1,14 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import "/src/variables";
 
-body {
-    background-color: $dark-4;
-    margin: 0 0 0 0;
-}  
+// STANDARD
 
-div {
+body { background-color: $dark-4; margin: 0 0 0 0; }  
+
+a { font-family: $font; color: $white; text-decoration: underline; }
+
+a:hover { color: $offwhite; }
+
+div { color: $white; font-family: $font; }
+
+p {
+    font-family: $font;
     color: $white;
-    font-family: $roboto;
+    font-size: 16px;
+    margin: 0 0 0 0;
+    padding: 15px 0 15px 0;
 }
 
 hr {
@@ -22,7 +30,7 @@ hr {
 }
 
 h2 {
-    font-family: $roboto;
+    font-family: $font;
     color: $white;
     font-size: 32px;
     margin: 0;
@@ -30,11 +38,11 @@ h2 {
 }
 
 h3 {
-    font-family: $roboto;
+    font-family: $font;
     color: $white;
     font-size: 20px;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 0;
+    padding: 15px 0 15px 0;
 }
 
 .quote {
@@ -44,18 +52,22 @@ h3 {
     border-left: 1px solid;
 }
 
-.meta {
-    font-family: $roboto;
-    color: $yellow;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+// FORMATTING
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .center {
@@ -64,60 +76,6 @@ h3 {
     align-items: center;
 }
 
-p {
-    font-family: $roboto;
-    color: $white;
-    font-size: 16px;
-    margin: 15px 0 15px 0;
-    padding: 0;
-}
-
-a {
-    font-family: $roboto;
-    color: $white;
-    text-decoration: underline;
-}
-
-a:hover {
+.meta-text {
     color: $offwhite;
-}
-
-.orange {
-    background: $orange;
-}
-
-.red {
-    background: $red;
-}
- 
-.green {
-    background: $green;
-}
-
-.teal {
-    background: $teal;
-}
-
-.blue {
-    background: $blue;
-}
-
-.orange-text {
-    color: $orange;
-}
-
-.red-text {
-    color: $red;
-}
- 
-.green-text {
-    color: $green;
-}
-
-.teal-text {
-    color: $teal;
-}
-
-.blue-text {
-    color: $blue;
 }
