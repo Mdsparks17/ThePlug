@@ -1,0 +1,27 @@
+<h2>Search</h2>
+<hr>
+
+<div class="center">
+    <span *ngFor="let tag of myTags">
+        <span class="tag" [id]=tag (click)="onClick($event)">
+            {{ tag }}
+        </span>
+        <span>&nbsp;</span>
+    </span>
+</div>
+
+<div *ngFor="let page of queryResults">
+    <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
+        <div class="card">
+            <div class="container">
+                <h3>{{ page.name }}</h3>
+                <p class="meta-text">
+                    <span *ngFor="let tag of page?.tags">
+                        {{ tag }}
+                    </span>
+                </p>
+                <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
+            </div>
+        </div>
+    </a>
+</div>

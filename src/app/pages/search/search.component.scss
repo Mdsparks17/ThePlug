@@ -1,0 +1,57 @@
+@import "/src/variables";
+
+.tag {
+    font-family: $font;
+    color: $offwhite;
+    text-decoration: underline;
+}
+
+.tag:hover {
+    color: $dark-1;
+    cursor: pointer;
+}
+
+a {
+    font-family: $font;
+    color: $white;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+
+    margin: 20px 0 20px 0;
+
+    background-color: $dark-3;
+    height: 100px;
+    width: 100%;
+    border-radius: 8px;
+
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    background-color: $dark-2;
+}
+
+.card:active {
+    background-color: $dark-1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h3 {
+    margin: 0 0 4px 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 0 0 4px 0;
+    padding: 0 0 0 0;
+}
