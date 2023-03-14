@@ -1,8 +1,10 @@
-<h2>About</h2>
+<h2>{{ mypage?.name }}</h2>
 <div class="meta-text">
-    <span>03/7/2023</span>
+    <span>{{ mypage?.metadata?.lastUpdatedTimestamp }}</span>
     <span> | </span>
-    <span>#meta #work</span>
+    <span *ngFor="let tag of mypage?.tags">
+        {{ tag }}
+    </span>
 </div>
 <hr>
 

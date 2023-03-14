@@ -6,7 +6,11 @@
         <div class="card">
             <div class="container">
                 <h3>{{ page.name }}</h3>
-                <p class="meta-text">{{ page.tags }}</p>
+                <p class="meta-text">
+                    <span *ngFor="let tag of page?.tags">
+                        {{ tag }}
+                    </span>
+                </p>
                 <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
             </div>
         </div>

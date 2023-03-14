@@ -4,22 +4,27 @@
             "name": "How to Become a Software Developer",
             "route": "/how-to-become-a-software-developer",
             "tags": [
-                "#work #software #tutorial"
+                "#work",
+                "#software",
+                "#tutorial"
             ],
             "metadata": {
-                "createdTimestamp": "3/7/2023",
-                "lastUpdatedTimestamp": "3/14/2023"
-            }
+                "createdTimestamp": "03/07/2023",
+                "lastUpdatedTimestamp": "03/15/2023"
+            },
+            "html": ""
+            
         },
         {
             "name": "About",
             "route": "/about",
             "tags": [
-                "#meta #work"
+                "#meta",
+                "#work"
             ],
             "metadata": {
-                "createdTimestamp": "3/7/2023",
-                "lastUpdatedTimestamp": "3/7/2023"
+                "createdTimestamp": "03/07/2023",
+                "lastUpdatedTimestamp": "03/07/2023"
             }
         }
     ]
