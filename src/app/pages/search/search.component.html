@@ -2,12 +2,7 @@
 <hr>
 
 <div class="center">
-    <span *ngFor="let tag of myTags">
-        <span class="tag" [id]=tag (click)="onClick($event)">
-            {{ tag }}
-        </span>
-        <span>&nbsp;</span>
-    </span>
+    <app-tag-list [myTags]="myTags"></app-tag-list>
 </div>
 
 <div *ngFor="let page of queryResults">
@@ -15,11 +10,7 @@
         <div class="card">
             <div class="container">
                 <h3>{{ page.name }}</h3>
-                <p class="meta-text">
-                    <span *ngFor="let tag of page?.tags">
-                        {{ tag }}
-                    </span>
-                </p>
+                <app-tag-list [myTags]="page.tags"></app-tag-list>
                 <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
             </div>
         </div>

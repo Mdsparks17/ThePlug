@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, ParamMap, NavigationEnd, Event } from '@angular/router';
 import pages from 'src/assets/pages.json';
 
 @Component({
@@ -11,11 +12,28 @@ export class SearchComponent implements OnInit {
   mypages = pages;
   myTags: string[] = [];
   queryResults: any[] = [];
+  Activatedroute: any;
 
-  constructor() { }
+  query: string = "";
+
+  
+
+  constructor(private route: ActivatedRoute, private router: Router) {
+    this.router.events.subscribe((event: Event) => {
+      if (event instanceof NavigationEnd) {
+
+        this.route.queryParams
+          .subscribe(params => {
+            this.query = params['query'];
+          }
+        );
+
+        this.search(this.query)
+      }
+    });
+   }
 
   ngOnInit(): void {
-
     this.mypages.pages.forEach(page => {
       page.tags.forEach(tag => {
         if (this.myTags.indexOf(tag) === -1) {
@@ -25,10 +43,6 @@ export class SearchComponent implements OnInit {
     });
 
     this.myTags.sort();
-  }
-
-  onClick(event: any) {
-    this.search(event.target.attributes.id.value)
   }
 
   search(query: string) {
@@ -41,6 +55,10 @@ export class SearchComponent implements OnInit {
         }
       }
     });
+  }
+
+  ngOnChanges() {
+    this.search(this.query);
   }
 
 }

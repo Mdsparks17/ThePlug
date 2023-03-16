@@ -5,23 +5,25 @@ import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { ArticlesModule } from '../articles/articles.module';
 import { RouterModule } from '@angular/router';
+import { TagListComponent } from './tag-list/tag-list.component';
 
 
 @NgModule({
   declarations: [
     ToolbarComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    TagListComponent
   ],
   imports: [
     CommonModule,
-    ArticlesModule,
     RouterModule
   ],
   exports: [
     ToolbarComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
+    TagListComponent
   ]
 })
 export class ComponentsModule { }

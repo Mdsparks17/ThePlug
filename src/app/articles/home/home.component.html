@@ -6,17 +6,12 @@
     <img class="bmo" src="./assets/bmo.gif">
 </div>
 
-
 <div *ngFor="let page of mypages.pages">
     <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
         <div class="card">
             <div class="container">
                 <h3>{{ page.name }}</h3>
-                <p class="meta-text">
-                    <span *ngFor="let tag of page?.tags">
-                        {{ tag }}
-                    </span>
-                </p>
+                <app-tag-list [myTags]="page.tags"></app-tag-list>
                 <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
             </div>
         </div>

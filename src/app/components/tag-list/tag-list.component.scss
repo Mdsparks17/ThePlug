@@ -1,0 +1,15 @@
+@import "/src/variables";
+
+.container {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.tag:hover {
+    color: $dark-1;
+    cursor: pointer;
+}
+
+a {
+    color: $offwhite; text-decoration: none;
+}

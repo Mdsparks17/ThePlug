@@ -1,10 +1,8 @@
 <h2>{{ mypage?.name }}</h2>
-<div class="meta-text">
+<div class="meta-text orient-left">
     <span>{{ mypage?.metadata?.lastUpdatedTimestamp }}</span>
-    <span> | </span>
-    <span *ngFor="let tag of mypage?.tags">
-        {{ tag }}
-    </span>
+    <span>&nbsp;|&nbsp;</span>
+    <app-tag-list [myTags]="mypage?.tags"></app-tag-list>
 </div>
 <hr>
 

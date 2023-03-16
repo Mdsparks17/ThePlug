@@ -4,6 +4,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { HowToBecomeASoftwareDeveloperComponent } from './how-to-become-a-software-developer/how-to-become-a-software-developer.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -15,7 +16,8 @@ import { HowToBecomeASoftwareDeveloperComponent } from './how-to-become-a-softwa
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    ComponentsModule
   ],
   exports: [
     AboutPageComponent

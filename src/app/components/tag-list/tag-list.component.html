@@ -1,0 +1,12 @@
+<p class="meta-text container">
+    <span *ngFor="let tag of myTags">
+        <a [routerLink]="['/search']" [queryParams]="{ query:tag }" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <span *ngIf="tag === '#blog'; else elseBlock">
+                <span class="tag teal">{{ tag }}&nbsp;</span>
+            </span>
+            <ng-template #elseBlock>
+                <span class="tag">{{ tag }}&nbsp;</span>
+            </ng-template>
+        </a>
+    </span>
+</p>
