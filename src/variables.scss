@@ -27,4 +27,9 @@ $blue: #00827A;
 // $dark-4: #262626;
 
 //MY FONTS
-$font: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+$font: Roboto, Arial, Helvetica, sans-serif;
