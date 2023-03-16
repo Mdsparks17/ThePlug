@@ -3,9 +3,9 @@
 .footer {
     display: flex;
     justify-content: center;
-
-    height: 100px;
-
+    
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 @media only screen and (max-width: 750px) {
@@ -19,13 +19,14 @@
     }
 }
 
-.standard-align {
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
+    height:100%;
     width: 100%;
+
+    margin: 0 5px 0 5px;
 }
 
 a { font-family: $font; color: $white; text-decoration: underline; }

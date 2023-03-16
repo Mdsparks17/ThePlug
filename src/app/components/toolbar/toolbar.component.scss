@@ -13,7 +13,7 @@ a {
     width: 100%;
 }
 
-.standard-align {
+.web-align {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,15 +29,8 @@ a {
     align-items: center;
 }
 
-.main-logo {
-    font-family: $font;
-    font-size: 45px;
-
-}
-
 .logo {
     margin: 0 10px 0 0;
-    filter: invert(100%);
 }
 
 .nav {
@@ -73,15 +66,4 @@ a {
 
 .button:active {
     background-color: $dark-1;
-}
-
-@media only screen and (max-width: 750px) {
-    .web {
-        display: none;
-    }
-}
-@media only screen and (min-width: 750px) {
-    .mobile{
-      display: none;
-    }
 }
