@@ -32,12 +32,12 @@ a {
 .main-logo {
     font-family: $font;
     font-size: 45px;
+
 }
 
 .logo {
-    height: 35px;
-    width: 35px;
     margin: 0 10px 0 0;
+    filter: invert(100%);
 }
 
 .nav {

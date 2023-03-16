@@ -1,5 +1,11 @@
+
 <h2>Home</h2>
 <hr>
+
+<div class="row">
+    <img class="bmo" src="./assets/bmo.gif">
+</div>
+
 
 <div *ngFor="let page of mypages.pages">
     <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
