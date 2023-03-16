@@ -13,6 +13,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.mypages.pages.sort((a, b) =>
+      (a.metadata.lastUpdatedTimestamp > b.metadata.lastUpdatedTimestamp) ? -1 : 1)
   }
 
 }

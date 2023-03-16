@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-a { font-family: $font; color: $yellow; text-decoration: underline; }
+a { font-family: $font; color: $blue; text-decoration: underline; }
 
 a:hover { color: $offwhite; }
 
@@ -107,9 +107,12 @@ h3 {
 
 // FONT COLOR
 
-.teal {
-    color: teal;
-}
+.yellow { color: $yellow; }
+.orange { color: $orange; }
+.red { color: $red; }
+.green { color: $green; }
+.teal { color: $teal; }
+.blue { color: $blue; }
 
 // CUSTOMIZATION
 
@@ -127,4 +130,29 @@ h3 {
 ::selection {
     background-color: $offwhite;
     color: $dark-4;
+}
+
+// UTILITIES
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+
+    margin: 20px 0 20px 0;
+
+    // background-color: $dark-3;
+    height: 100px;
+    width: 100%;
+    border-left: solid 2px;
+    border-radius: 8px;
+
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    background-color: $dark-2;
+}
+
+.card:active {
+    background-color: $dark-1;
 }

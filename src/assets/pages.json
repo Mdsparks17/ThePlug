@@ -10,11 +10,9 @@
                 "#tutorial"
             ],
             "metadata": {
-                "createdTimestamp": "03/07/2023",
-                "lastUpdatedTimestamp": "03/16/2023"
-            },
-            "html": ""
-            
+                "createdTimestamp": "2023/03/07",
+                "lastUpdatedTimestamp": "2023/03/16"
+            }
         },
         {
             "name": "About",
@@ -24,8 +22,8 @@
                 "#work"
             ],
             "metadata": {
-                "createdTimestamp": "03/07/2023",
-                "lastUpdatedTimestamp": "03/07/2023"
+                "createdTimestamp": "2023/03/07",
+                "lastUpdatedTimestamp": "2023/03/07"
             }
         }
     ]

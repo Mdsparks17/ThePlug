@@ -10,3 +10,19 @@ You can find the github pages here: https://mdsparks17.github.io/ThePlug/
 
 # TODO
 
+Listicles
+- TV / Movies / Anime
+- Recipes
+- Games
+- Books
+
+Projects
+- Work Projects
+
+Links
+
+SiteMap
+
+Youtube Mix Player
+
+Dream Diary

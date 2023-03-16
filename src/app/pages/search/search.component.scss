@@ -17,29 +17,6 @@ a {
     text-decoration: none;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-
-    margin: 20px 0 20px 0;
-
-    background-color: $dark-3;
-    height: 100px;
-    width: 100%;
-    border-radius: 8px;
-
-    transition-duration: 0.3s;
-}
-
-.card:hover {
-    background-color: $dark-2;
-}
-
-.card:active {
-    background-color: $dark-1;
-}
-
 .container {
     display: flex;
     flex-direction: column;
