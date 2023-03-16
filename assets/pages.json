@@ -4,13 +4,14 @@
             "name": "How to Become a Software Developer",
             "route": "/how-to-become-a-software-developer",
             "tags": [
+                "#blog",
                 "#work",
                 "#software",
                 "#tutorial"
             ],
             "metadata": {
                 "createdTimestamp": "03/07/2023",
-                "lastUpdatedTimestamp": "03/15/2023"
+                "lastUpdatedTimestamp": "03/16/2023"
             },
             "html": ""
             
