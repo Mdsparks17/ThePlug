@@ -9,11 +9,9 @@
 <div *ngFor="let page of mypages.pages">
     <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
         <div class="card">
-            <div class="container">
-                <h3>{{ page.name }}</h3>
-                <app-tag-list [myTags]="page.tags"></app-tag-list>
-                <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
-            </div>
+            <h3>{{ page.name }}</h3>
+            <app-tag-list [myTags]="page.tags"></app-tag-list>
+            <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
         </div>
     </a>
 </div>

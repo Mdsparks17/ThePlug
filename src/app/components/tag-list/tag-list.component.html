@@ -1,13 +1,9 @@
-<p class="meta-text container">
+<p class="meta-text">
     <span *ngFor="let tag of myTags">
         <a [routerLink]="['/search']" [queryParams]="{ query:tag }" routerLinkActive="active" ariaCurrentWhenActive="page">
-            <span *ngIf="tag === '#blog'; else metaCheck">
-                <span class="tag orange">{{ tag }}&nbsp;</span>
-            </span>
+            <span *ngIf="tag === '#blog'; else metaCheck" class="tag orange">{{ tag }}&nbsp;</span>
             <ng-template #metaCheck>
-                <span *ngIf="tag === '#meta'; else standard">
-                    <span class="tag teal">{{ tag }}&nbsp;</span>
-                </span>
+                <span *ngIf="tag === '#meta'; else standard" class="tag teal">{{ tag }}&nbsp;</span>
             </ng-template>
             <ng-template #standard>
                 <span class="tag">{{ tag }}&nbsp;</span>

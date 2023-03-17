@@ -11,8 +11,8 @@ body {
     // background-size: cover;
     // background-position: bottom;
     // background-attachment: fixed;
-
     margin: 0 0 0 0;
+    padding: 0 5px 0 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,8 +31,8 @@ body {
     .fill {
         width: 100%;
     }
-    
 }
+
 @media only screen and (min-width: 750px) {
     .fill {
         width: 750px;
@@ -80,15 +80,25 @@ h3 {
     padding: 15px 0 15px 0;
 }
 
-.quote {
+q {
+    font-family: $font;
     font-style: italic;
-    margin-left: 15px;
-    padding-left: 5px;
-    border-left: 1px solid;
     color: $green;
+    content: none;
 }
 
 // FORMATTING
+
+.indent {
+    font-family: $font;
+    color: $white;
+    font-size: 16px;
+    margin: 15px 0 15px 0;
+    padding: 5px 0 5px 0;
+    line-height: 15px;
+    border-left: 1px solid;
+    border-color: $green;
+}
 
 .column {
     display: flex;
@@ -122,7 +132,11 @@ h3 {
 }
 
 .meta-text {
+    display: flex;
+    flex-flow: row wrap;
     color: $offwhite;
+    margin: 0;
+    padding: 0;
 }
 
 // FONT COLOR
@@ -147,10 +161,7 @@ h3 {
 
 // highlight
 
-::selection {
-    background-color: $offwhite;
-    color: $dark-4;
-}
+::selection { background-color: $offwhite; color: $dark-4; }
 
 // UTILITIES
 .card {
@@ -160,7 +171,8 @@ h3 {
 
     margin: 20px 0 20px 0;
 
-    // background-color: $dark-3;
+    padding: 0 10px 0 10px;
+
     height: 100px;
     width: 100%;
     border-left: solid 2px;
