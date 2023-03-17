@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ToolbarComponent } from './toolbar/toolbar.component';
+import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { ArticlesModule } from '../articles/articles.module';
@@ -10,7 +10,7 @@ import { TagListComponent } from './tag-list/tag-list.component';
 
 @NgModule({
   declarations: [
-    ToolbarComponent,
+    HeaderComponent,
     FooterComponent,
     ContentComponent,
     TagListComponent
@@ -20,7 +20,7 @@ import { TagListComponent } from './tag-list/tag-list.component';
     RouterModule
   ],
   exports: [
-    ToolbarComponent,
+    HeaderComponent,
     FooterComponent,
     ContentComponent,
     TagListComponent

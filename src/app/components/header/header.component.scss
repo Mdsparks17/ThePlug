@@ -1,18 +1,5 @@
 @import "/src/variables";
 
-a {
-    font-family: $font;
-    color: $white;
-    text-decoration: none;
-}
-
-.toolbar {
-    display: flex;
-    justify-content: center;
-
-    width: 100%;
-}
-
 .web-align {
     display: flex;
     justify-content: space-between;
@@ -29,15 +16,29 @@ a {
     align-items: center;
 }
 
-.logo {
-    margin: 0 10px 0 0;
+a {
+    font-family: $font;
+    color: $white;
+    text-decoration: none;
 }
 
-.nav {
+header {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.logo {
+    margin: 0 10px 0 0;
+    width: 100%;
 }
 
 .button {
@@ -45,8 +46,8 @@ a {
     justify-content: center;
     align-items: center;
 
-    margin: 0px;
-    padding: 8px;
+    margin: 0 0 0 0;
+    padding: 8px 8px 8px 8px;
     border: none;
     border-radius: 8px;
     width: 75px;

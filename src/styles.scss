@@ -19,6 +19,26 @@ body {
     align-items: center;
 }
 
+.fill {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+    width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+    .fill {
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 750px) {
+    .fill {
+        width: 750px;
+    }
+}
+
 a { font-family: $font; color: $blue; text-decoration: underline; }
 
 a:hover { color: $offwhite; }
@@ -116,7 +136,7 @@ h3 {
 
 // CUSTOMIZATION
 
-// toolbar
+// scrollbar
 ::-webkit-scrollbar { width: 10px; }
 
 ::-webkit-scrollbar-track { background: $dark-4; }
