@@ -20,7 +20,7 @@
 
 a {
     font-family: $font;
-    color: $white;
+    color: $text;
     text-decoration: none;
 }
 
@@ -43,14 +43,14 @@ nav {
     border: none;
     border-radius: 8px;
 
-    background-color: $dark-4;
-    color: $white;
+    background-color: $background;
+    color: $text;
     font-family: $font;
     font-size: 16px;
 
     transition-duration: 0.3s;
 }
 
-.button:hover { background-color: $dark-2; }
+.button:hover { background-color: $primary2; }
 
-.button:active { background-color: $dark-1; }
+.button:active { background-color: $primary3; }

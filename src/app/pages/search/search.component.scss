@@ -2,18 +2,18 @@
 
 .tag {
     font-family: $font;
-    color: $offwhite;
+    color: $hover;
     text-decoration: underline;
 }
 
 .tag:hover {
-    color: $dark-1;
+    color: $primary3;
     cursor: pointer;
 }
 
 a {
     font-family: $font;
-    color: $white;
+    color: $text;
     text-decoration: none;
 }
 

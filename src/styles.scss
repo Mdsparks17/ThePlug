@@ -4,7 +4,7 @@
 // STANDARD
 
 body {
-    background-color: $dark-4;
+    background-color: $background;
 
     // TODO: find a fun background image
     // background-image: url("./assets/bg.png");
@@ -41,13 +41,13 @@ body {
 
 a { font-family: $font; color: $blue; text-decoration: underline; }
 
-a:hover { color: $offwhite; }
+a:hover { color: $hover; }
 
-div { color: $white; font-family: $font; }
+div { color: $text; font-family: $font; }
 
 p {
     font-family: $font;
-    color: $white;
+    color: $text;
     font-size: 16px;
     margin: 0 0 0 0;
     padding: 15px 0 15px 0;
@@ -58,7 +58,7 @@ hr {
     width: 100%;
     border: none;
     height: 1px;
-    background-color: $white;
+    background-color: $text;
     border-radius: 8px;
 
     margin-bottom: 15px;
@@ -66,7 +66,7 @@ hr {
 
 h2 {
     font-family: $font;
-    color: $white;
+    color: $text;
     font-size: 32px;
     margin: 0;
     padding: 0;
@@ -74,7 +74,7 @@ h2 {
 
 h3 {
     font-family: $font;
-    color: $white;
+    color: $text;
     font-size: 20px;
     margin: 0 0 0 0;
     padding: 15px 0 15px 0;
@@ -91,7 +91,7 @@ q {
 
 .indent {
     font-family: $font;
-    color: $white;
+    color: $text;
     font-size: 16px;
     margin: 15px 0 15px 0;
     padding: 5px 0 5px 0;
@@ -134,7 +134,7 @@ q {
 .meta-text {
     display: flex;
     flex-flow: row wrap;
-    color: $offwhite;
+    color: $hover;
     margin: 0;
     padding: 0;
 }
@@ -153,15 +153,15 @@ q {
 // scrollbar
 ::-webkit-scrollbar { width: 10px; }
 
-::-webkit-scrollbar-track { background: $dark-4; }
+::-webkit-scrollbar-track { background: $background; }
 
-::-webkit-scrollbar-thumb { background: $dark-1; border-radius: 4px; margin: 4px 0 4px 0; }
+::-webkit-scrollbar-thumb { background: $primary3; border-radius: 4px; margin: 4px 0 4px 0; }
 
-::-webkit-scrollbar-thumb:hover { background: $offwhite; }
+::-webkit-scrollbar-thumb:hover { background: $hover; }
 
 // highlight
 
-::selection { background-color: $offwhite; color: $dark-4; }
+::selection { background-color: $hover; color: $background; }
 
 // UTILITIES
 .card {
@@ -182,9 +182,9 @@ q {
 }
 
 .card:hover {
-    background-color: $dark-2;
+    background-color: $primary2;
 }
 
 .card:active {
-    background-color: $dark-1;
+    background-color: $primary3;
 }

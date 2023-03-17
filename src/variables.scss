@@ -1,12 +1,12 @@
-//@import "/src/variables";
+// @import "/src/variables";
 
-//MY COLORS
-$white: #ffffff;        // text
-$offwhite: #C0D0D8;     // hover text
-$dark-1: #4F5F72;       // active
-$dark-2: #2f3947;       // hover
-$dark-3: #202732;       // component background
-$dark-4: #181818;       // background
+// MY COLORS
+$text: #ffffff;        // text
+$hover: #C0D0D8;     // hover text
+$primary3: #4F5F72;       // active
+$primary2: #2f3947;       // hover
+$primary: #202732;       // component background
+$background: #181818;       // background
 
 $yellow: #B47304;       
 $orange: #A53E12;
@@ -15,18 +15,25 @@ $green: #A8A84D;        // quotes
 $teal: #13705C;
 $blue: #00B8AB;         // links
 
-// Old colors: these work well together aesthetically but hurt readability
-// $yellow: #FBB336;
-// $orange: #E8652B;
-// $red: #E8534A;
-// $green: #7F7F3A;
-// $teal: #13705C;
-// $blue: #00827A;
-// $offwhite: #A6BEC9;
-// $dark-3: #28303E;
-// $dark-4: #262626;
+// DARK THEME
+// $text: #ffffff;        // text
+// $hover: #C0D0D8;     // hover text
+// $primary3: #4F5F72;       // active
+// $primary2: #2f3947;       // hover
+// $primary: #202732;       // component background
+// $background: #181818;       // background
 
-//MY FONTS
+// $yellow: #B47304;       
+// $orange: #A53E12;
+// $red: #A21C15;
+// $green: #A8A84D;        // quotes
+// $teal: #13705C;
+// $blue: #00B8AB;         // links
+
+// LIGHT THEME
+
+
+// MY FONTS
 @font-face {
     font-family: 'Roboto';
     src: url('./assets/fonts/Roboto-Regular.ttf');

@@ -1,10 +1,10 @@
 @import "/src/variables";
 
 .tag:hover {
-    color: $dark-1;
+    color: $primary3;
     cursor: pointer;
 }
 
 a {
-    color: $offwhite; text-decoration: none;
+    color: $hover; text-decoration: none;
 }
