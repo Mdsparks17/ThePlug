@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import pages from 'src/assets/pages.json';
 
 @Component({
   selector: 'app-about-page',
@@ -7,8 +6,6 @@ import pages from 'src/assets/pages.json';
   styleUrls: ['./about-page.component.scss']
 })
 export class AboutPageComponent implements OnInit {
-
-  mypage = pages.pages.find(element => element.name == 'About') 
 
   constructor() { }
 
