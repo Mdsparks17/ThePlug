@@ -1,12 +1,5 @@
 <app-header></app-header>
-
-<h2>{{ mypage?.name }}</h2>
-<div class="meta-text orient-left">
-    <span>{{ mypage?.metadata?.lastUpdatedTimestamp }}</span>
-    <span>&nbsp;|&nbsp;</span>
-    <app-tag-list [myTags]="mypage?.tags"></app-tag-list>
-</div>
-<hr>
+<app-title myPageName='How to Become a Software Developer'></app-title>
 
 <h3>So you want to become a software developer?</h3>
 <p>Makes sense, a lot of people see software dev as their ticket to a 6-figure salary. But it’s not as simple as taking
@@ -55,3 +48,5 @@
 </p>
 <p>And of course, the most important thing is to stay interested. No one learns well by choking down information. Find
     the fun and the learning will come naturally. </p>
+
+<app-footer></app-footer>

@@ -1,0 +1,7 @@
+<h2>{{ myPage?.name }}</h2>
+<div class="meta-text orient-left">
+    <span>{{ myPage?.metadata?.lastUpdatedTimestamp }}</span>
+    <span>&nbsp;|&nbsp;</span>
+    <app-tag-list [myTags]="myPage?.tags"></app-tag-list>
+</div>
+<hr>

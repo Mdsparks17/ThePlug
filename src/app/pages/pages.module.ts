@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ArticleComponent } from './article/article.component';
 import { ComponentsModule } from '../components/components.module';
 import { SearchComponent } from './search/search.component';
 import { RouterModule } from '@angular/router';
@@ -12,7 +11,6 @@ import { HowToBecomeASoftwareDeveloperComponent } from './how-to-become-a-softwa
 
 @NgModule({
   declarations: [
-    ArticleComponent,
     SearchComponent,
     AboutPageComponent,
     HomeComponent,

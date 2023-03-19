@@ -1,12 +1,5 @@
 <app-header></app-header>
-
-<h2>{{ mypage?.name }}</h2>
-<div class="meta-text orient-left">
-    <span>{{ mypage?.metadata?.lastUpdatedTimestamp }}</span>
-    <span>&nbsp;|&nbsp;</span>
-    <app-tag-list [myTags]="mypage?.tags"></app-tag-list>
-</div>
-<hr>
+<app-title myPageName='About'></app-title>
 
 <div class="row">
     <div>
@@ -33,4 +26,6 @@
     </div>
     <img class="pennletter" src="./assets/pennletter.gif">
 </div>
+
+<app-footer></app-footer>
 
