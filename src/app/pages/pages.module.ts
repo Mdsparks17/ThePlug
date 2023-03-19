@@ -4,13 +4,19 @@ import { ArticleComponent } from './article/article.component';
 import { ComponentsModule } from '../components/components.module';
 import { SearchComponent } from './search/search.component';
 import { RouterModule } from '@angular/router';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { HomeComponent } from './home/home.component';
+import { HowToBecomeASoftwareDeveloperComponent } from './how-to-become-a-software-developer/how-to-become-a-software-developer.component';
 
 
 
 @NgModule({
   declarations: [
     ArticleComponent,
-    SearchComponent
+    SearchComponent,
+    AboutPageComponent,
+    HomeComponent,
+    HowToBecomeASoftwareDeveloperComponent
   ],
   imports: [
     CommonModule,
@@ -18,7 +24,7 @@ import { RouterModule } from '@angular/router';
     RouterModule
   ],
   exports: [
-    ArticleComponent
+    
   ]
 })
 export class PagesModule { }
