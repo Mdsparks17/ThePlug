@@ -3,7 +3,10 @@
         <a [routerLink]="['/search']" [queryParams]="{ query:tag }" routerLinkActive="active" ariaCurrentWhenActive="page">
             <span *ngIf="tag === '#blog'; else metaCheck" class="tag orange">{{ tag }}&nbsp;</span>
             <ng-template #metaCheck>
-                <span *ngIf="tag === '#meta'; else standard" class="tag teal">{{ tag }}&nbsp;</span>
+                <span *ngIf="tag === '#meta'; else listCheck" class="tag teal">{{ tag }}&nbsp;</span>
+            </ng-template>
+            <ng-template #listCheck>
+                <span *ngIf="tag === '#list'; else standard" class="tag red">{{ tag }}&nbsp;</span>
             </ng-template>
             <ng-template #standard>
                 <span class="tag">{{ tag }}&nbsp;</span>

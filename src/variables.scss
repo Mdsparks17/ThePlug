@@ -1,20 +1,5 @@
 // @import "/src/variables";
 
-// MY COLORS
-$text: #ffffff;        // text
-$hover: #C0D0D8;     // hover text
-$primary3: #4F5F72;       // active
-$primary2: #2f3947;       // hover
-$primary: #202732;       // component background
-$background: #181818;       // background
-
-$yellow: #B47304;       
-$orange: #A53E12;
-$red: #A21C15;
-$green: #A8A84D;        // quotes
-$teal: #13705C;
-$blue: #00B8AB;         // links
-
 // DARK THEME
 // $text: #ffffff;        // text
 // $hover: #C0D0D8;     // hover text
@@ -31,7 +16,21 @@ $blue: #00B8AB;         // links
 // $blue: #00B8AB;         // links
 
 // LIGHT THEME
+$text: #000000;        // text
+$hover: #181818;     // hover text
+$primary3: #52554d;       // active
+$primary2: #ced6c2;       // hover
+$primary: #bec5b9;       // component background
+$background: #f9ffe0;       // background
 
+$yellow: #B47304;       
+$orange: #A53E12;
+$red: #A21C15;
+$green: #757535;        // quotes
+$teal: #13705C;
+$blue: #00B8AB;         // links
+
+.theme { filter: invert(100%); }
 
 // MY FONTS
 @font-face {

@@ -11,11 +11,12 @@ export class TitleComponent implements OnInit {
   @Input()
   myPageName: string = "";
 
-  myPage = pages.pages.find(element => element.name == 'About') 
+  myPage: any;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.myPage = pages.pages.find(element => element.name == this.myPageName) 
   }
 
 }

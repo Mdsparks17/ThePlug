@@ -12,6 +12,7 @@ You can find the github pages here: https://mdsparks17.github.io/ThePlug/
 
 Listicles
 - TV / Movies / Anime
+- Boardgames
 - Recipes
 - Games
 - Books

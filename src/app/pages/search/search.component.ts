@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, ParamMap, NavigationEnd, Event } from '@angular/router';
+import { Router, ActivatedRoute, NavigationEnd, Event } from '@angular/router';
 import pages from 'src/assets/pages.json';
 
 @Component({
