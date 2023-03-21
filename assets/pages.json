@@ -25,6 +25,19 @@
                 "createdTimestamp": "2023/03/07",
                 "lastUpdatedTimestamp": "2023/03/07"
             }
+        },
+        {
+            "name": "Anime",
+            "route": "/anime",
+            "tags": [
+                "#list",
+                "#media", 
+                "#anime"
+            ],
+            "metadata": {
+                "createdTimestamp": "2023/03/20",
+                "lastUpdatedTimestamp": "2023/03/20"
+            }
         }
     ]
 }
