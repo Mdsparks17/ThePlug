@@ -3,13 +3,14 @@
 <h2>Search</h2>
 <hr>
 
-<div class="center">
+<div class="center spacer">
     <app-tag-list [myTags]="myTags"></app-tag-list>
 </div>
+<hr>
 
 <div *ngFor="let page of queryResults">
     <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
-        <div class="card">
+        <div class="button card">
             <h3>{{ page.name }}</h3>
             <app-tag-list [myTags]="page.tags"></app-tag-list>
             <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>

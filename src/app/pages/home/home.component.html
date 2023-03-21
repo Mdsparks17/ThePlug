@@ -3,13 +3,13 @@
 <h2>Home</h2>
 <hr>
 
-<div class="row">
-    <img class="bmo" src="./assets/images/bmo.gif">
-</div>
+<!-- <div class="row">
+    <img class="bmo spacer" src="./assets/images/bmo.gif">
+</div> -->
 
 <div *ngFor="let page of mypages.pages">
     <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
-        <div class="card">
+        <div class="button card">
             <h3>{{ page.name }}</h3>
             <app-tag-list [myTags]="page.tags"></app-tag-list>
             <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
