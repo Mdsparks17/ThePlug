@@ -6,6 +6,10 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .logo {
+        margin: 1rem 0 0 0;
+    }
 }
 
 @media only screen and (min-width: 750px) {
@@ -29,6 +33,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin: 1rem 0 1rem 0;
 }
 
 .button {

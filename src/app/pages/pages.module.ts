@@ -9,6 +9,7 @@ import { HowToBecomeASoftwareDeveloperComponent } from './how-to-become-a-softwa
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { AnimeComponent } from './anime/anime.component';
+import { HowThisWebsiteWasMadeComponent } from './how-this-website-was-made/how-this-website-was-made.component';
 
 
 
@@ -20,7 +21,8 @@ import { AnimeComponent } from './anime/anime.component';
     HowToBecomeASoftwareDeveloperComponent,
     PageNotFoundComponent,
     SitemapComponent,
-    AnimeComponent
+    AnimeComponent,
+    HowThisWebsiteWasMadeComponent
   ],
   imports: [
     CommonModule,

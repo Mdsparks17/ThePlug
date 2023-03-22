@@ -3,37 +3,37 @@
 
 // STANDARD
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: $background;
-
-    // TODO: find a fun background image
-    // background-image: url("./assets/images/bg.jpg");
-    // background-size: cover;
-    // background-position: bottom;
-    // background-attachment: fixed;
+    background-image: url("./assets/images/bg.png");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
     margin: 0 0 0 0;
     padding: 0 1rem 0 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.fill {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    
-    width: 100%;
-}
-
 .content {
+    background-color: $background;
     border-radius: 4px;
+    // margin: 0 1rem 0 1rem;
+    padding: 0 1rem 0 1rem;
+    min-height: 100vh;
+    max-height: 100%;
+    // display: none;
 }
 
-@media only screen and (max-width: 750px) { .fill { width: 100%; } }
+@media only screen and (max-width: 750px) { .content { width: 100%; } }
 
-@media only screen and (min-width: 750px) { .fill { width: 750px; } }
+@media only screen and (min-width: 750px) { .content { width: 750px; } }
 
 a { 
     font-family: $font; 
@@ -95,14 +95,32 @@ q {
     content: none;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
+
+li {
+    // display: flex;
+    font-family: $font;
+    color: $text;
+    list-style-type: none;
+    line-height: 1.25rem;
+    padding: .25rem 0 .25rem 0;
+}
+
+li::before { content: '\00a0○\00a0'}
+
 // FORMATTING
 
 .indent {
     font-family: $font;
-    color: $text;
+    color: $green;
     font-size: 1rem;
     margin: 1rem 0 1rem 1rem;
-    padding: 0 0 0 .5rem;
+    padding: 1rem 0 1rem .5rem;
     line-height: 1rem;
     border-left: 1px solid;
     border-color: $green;
@@ -182,10 +200,8 @@ q {
     flex-direction: column;
     justify-content: center;    
 
-    width: 100%;
+    width: 98%;
     padding: 1rem 0 1rem 1rem;
-    // border-left: solid 2px;
-    // border-radius: 8px;
 
     transition-duration: 0.3s;
 }
@@ -202,15 +218,13 @@ q {
   background-color: transparent;
   border: 0px solid $primary3;
   border-radius: 4px;
-//   box-shadow: $primary3 2px 2px 0 0;
   color: $text;
   cursor: pointer;
-//   margin: 4px 4px 4px 4px;
-
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  transition-duration: 0.3s;
 }
 
 .button:hover {

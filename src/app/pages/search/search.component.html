@@ -8,14 +8,6 @@
 </div>
 <hr>
 
-<div *ngFor="let page of queryResults">
-    <a [routerLink]=[page.route] routerLinkActive="active" ariaCurrentWhenActive="page">
-        <div class="button card">
-            <h3>{{ page.name }}</h3>
-            <app-tag-list [myTags]="page.tags"></app-tag-list>
-            <p class="meta-text">{{ page.metadata.lastUpdatedTimestamp }}</p>
-        </div>
-    </a>
-</div>
+<app-card-list [cardList]=queryResults></app-card-list>
 
 <app-footer></app-footer>

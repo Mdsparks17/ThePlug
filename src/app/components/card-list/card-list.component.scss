@@ -1,0 +1,23 @@
+@import "/src/variables";
+
+a {
+    font-family: $font;
+    color: $text;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h3 {
+    margin: 0 0 4px 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 4px 0 4px 0;
+    padding: 0 0 0 0;
+}

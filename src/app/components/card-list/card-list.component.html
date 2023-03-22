@@ -1,0 +1,9 @@
+<div *ngFor="let card of cardList">
+    <a [routerLink]=[card.route] routerLinkActive="active">
+        <div class="button card">
+            <h3>{{ card.name }}</h3>
+            <app-tag-list [myTags]="card.tags"></app-tag-list>
+            <p class="meta-text">{{ card.metadata.lastUpdatedTimestamp }}</p>
+        </div>
+    </a>
+</div>
