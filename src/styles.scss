@@ -207,8 +207,14 @@ li::before { content: '\00a0○\00a0'}
     width: 98%;
     padding: 1rem 0 1rem 1rem;
 
+    animation: fadeIn .5s;
     transition-duration: 0.3s;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .card:hover {
     background-color: $primary2;
