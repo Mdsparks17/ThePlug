@@ -1,4 +1,4 @@
 git add .
-git commit -m "deploy changes"
+git commit -m "auto-commit"
 git push origin main
-ng deploy --base-href=./
+ng deploy --base-href=./ --cname=example.org
