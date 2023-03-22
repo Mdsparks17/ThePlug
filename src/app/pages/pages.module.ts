@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ComponentsModule } from '../components/components.module';
-import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './meta/search/search.component';
 import { RouterModule } from '@angular/router';
-import { AboutPageComponent } from './about-page/about-page.component';
-import { HomeComponent } from './home/home.component';
-import { HowToBecomeASoftwareDeveloperComponent } from './how-to-become-a-software-developer/how-to-become-a-software-developer.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { SitemapComponent } from './sitemap/sitemap.component';
-import { AnimeComponent } from './anime/anime.component';
-import { HowThisWebsiteWasMadeComponent } from './how-this-website-was-made/how-this-website-was-made.component';
-import { MovieListComponent } from './movie-list/movie-list.component';
+import { AboutPageComponent } from './meta/about-page/about-page.component';
+import { HomeComponent } from './meta/home/home.component';
+import { HowToBecomeASoftwareDeveloperComponent } from './blogs/how-to-become-a-software-developer/how-to-become-a-software-developer.component';
+import { PageNotFoundComponent } from './meta/page-not-found/page-not-found.component';
+import { SitemapComponent } from './meta/sitemap/sitemap.component';
+import { AnimeComponent } from './lists/anime/anime.component';
+import { HowThisWebsiteWasMadeComponent } from './meta/how-this-website-was-made/how-this-website-was-made.component';
+import { MovieListComponent } from './lists/movie-list/movie-list.component';
 
 
 
