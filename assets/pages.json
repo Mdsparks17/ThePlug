@@ -27,7 +27,7 @@
             }
         },
         {
-            "name": "Anime",
+            "name": "Anime List",
             "route": "/anime",
             "tags": [
                 "#list",
@@ -37,6 +37,19 @@
             "metadata": {
                 "createdTimestamp": "2023/03/20",
                 "lastUpdatedTimestamp": "2023/03/20"
+            }
+        },
+        {
+            "name": "How This Website Was Made",
+            "route": "/how-this-website-was-made",
+            "tags": [
+                "#meta",
+                "#software", 
+                "#tutorial"
+            ],
+            "metadata": {
+                "createdTimestamp": "2023/03/22",
+                "lastUpdatedTimestamp": "2023/03/22"
             }
         }
     ]
