@@ -40,6 +40,19 @@
             }
         },
         {
+            "name": "Movie List",
+            "route": "/movie",
+            "tags": [
+                "#list",
+                "#media", 
+                "#movie"
+            ],
+            "metadata": {
+                "createdTimestamp": "2023/03/22",
+                "lastUpdatedTimestamp": "2023/03/22"
+            }
+        },
+        {
             "name": "How This Website Was Made",
             "route": "/how-this-website-was-made",
             "tags": [

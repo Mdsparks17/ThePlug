@@ -58,7 +58,7 @@ p {
     font-size: 1rem;
     margin: 0;
     padding: 1rem 0 1rem 0;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
 }
 
 hr {
@@ -107,7 +107,7 @@ li {
     font-family: $font;
     color: $text;
     list-style-type: none;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     padding: .25rem 0 .25rem 0;
 }
 
@@ -121,7 +121,7 @@ li::before { content: '\00a0○\00a0'}
     font-size: 1rem;
     margin: 1rem 0 1rem 1rem;
     padding: 1rem 0 1rem .5rem;
-    line-height: 1rem;
+    line-height: 1.5rem;
     border-left: 1px solid;
     border-color: $green;
 }
@@ -172,12 +172,16 @@ li::before { content: '\00a0○\00a0'}
 
 // FONT COLOR
 
-.yellow { color: $yellow; }
-.orange { color: $orange; }
+
+
 .red { color: $red; }
+.orange { color: $orange; }
+.yellow { color: $yellow; }
 .green { color: $green; }
 .teal { color: $teal; }
 .blue { color: $blue; }
+.magenta { color: $magenta; }
+
 
 // CUSTOMIZATION
 

@@ -10,6 +10,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { AnimeComponent } from './anime/anime.component';
 import { HowThisWebsiteWasMadeComponent } from './how-this-website-was-made/how-this-website-was-made.component';
+import { MovieListComponent } from './movie-list/movie-list.component';
 
 
 
@@ -22,7 +23,8 @@ import { HowThisWebsiteWasMadeComponent } from './how-this-website-was-made/how-
     PageNotFoundComponent,
     SitemapComponent,
     AnimeComponent,
-    HowThisWebsiteWasMadeComponent
+    HowThisWebsiteWasMadeComponent,
+    MovieListComponent
   ],
   imports: [
     CommonModule,
