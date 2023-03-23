@@ -11,6 +11,7 @@ import { SitemapComponent } from './meta/sitemap/sitemap.component';
 import { AnimeComponent } from './lists/anime/anime.component';
 import { HowThisWebsiteWasMadeComponent } from './meta/how-this-website-was-made/how-this-website-was-made.component';
 import { MovieListComponent } from './lists/movie-list/movie-list.component';
+import { EnvironmentalActivismResponsibilityComponent } from './blogs/environmental-activism-responsibility/environmental-activism-responsibility.component';
 
 
 
@@ -24,7 +25,8 @@ import { MovieListComponent } from './lists/movie-list/movie-list.component';
     SitemapComponent,
     AnimeComponent,
     HowThisWebsiteWasMadeComponent,
-    MovieListComponent
+    MovieListComponent,
+    EnvironmentalActivismResponsibilityComponent
   ],
   imports: [
     CommonModule,

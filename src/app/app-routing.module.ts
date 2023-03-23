@@ -9,6 +9,7 @@ import { MovieListComponent } from './pages/lists/movie-list/movie-list.componen
 import { PageNotFoundComponent } from './pages/meta/page-not-found/page-not-found.component';
 import { SearchComponent } from './pages/meta/search/search.component';
 import { SitemapComponent } from './pages/meta/sitemap/sitemap.component';
+import { EnvironmentalActivismResponsibilityComponent } from './pages/blogs/environmental-activism-responsibility/environmental-activism-responsibility.component';
 
 const routes: Routes = [
   // Core Pages
@@ -22,6 +23,8 @@ const routes: Routes = [
   { path: 'anime', component: AnimeComponent },
   { path: 'how-this-website-was-made', component: HowThisWebsiteWasMadeComponent },
   { path: 'movie', component: MovieListComponent },
+  { path: 'environmental-activism-responsibility', component: EnvironmentalActivismResponsibilityComponent },
+
   
   // Error Pages
   { path: '**', component: PageNotFoundComponent }
