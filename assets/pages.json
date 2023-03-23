@@ -64,6 +64,18 @@
                 "createdTimestamp": "2023/03/22",
                 "lastUpdatedTimestamp": "2023/03/22"
             }
+        },
+        {
+            "name": "Environmental Activism: What Should an Individual Actually Do?",
+            "route": "/environmental-activism-responsibility",
+            "tags": [
+                "#blog",
+                "#activism"
+            ],
+            "metadata": {
+                "createdTimestamp": "2023/03/23",
+                "lastUpdatedTimestamp": "2023/03/23"
+            }
         }
     ]
 }
