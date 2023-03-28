@@ -76,6 +76,18 @@
                 "createdTimestamp": "2023/03/23",
                 "lastUpdatedTimestamp": "2023/03/23"
             }
+        },
+        {
+            "name": "Converting to Linux Diary",
+            "route": "/using-linux-daily",
+            "tags": [
+                "#blog",
+                "#software"
+            ],
+            "metadata": {
+                "createdTimestamp": "2023/03/28",
+                "lastUpdatedTimestamp": "2023/03/28"
+            }
         }
     ]
 }
