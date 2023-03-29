@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { TagListComponent } from './tag-list/tag-list.component';
 import { TitleComponent } from './title/title.component';
 import { CardListComponent } from './card-list/card-list.component';
+import { CardTableComponent } from './card-table/card-table.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CardListComponent } from './card-list/card-list.component';
     FooterComponent,
     TagListComponent,
     TitleComponent,
-    CardListComponent
+    CardListComponent,
+    CardTableComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import { CardListComponent } from './card-list/card-list.component';
     FooterComponent,
     TagListComponent,
     TitleComponent,
-    CardListComponent
+    CardListComponent,
+    CardTableComponent
   ]
 })
 export class ComponentsModule { }

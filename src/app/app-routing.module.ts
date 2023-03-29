@@ -10,7 +10,7 @@ import { PageNotFoundComponent } from './pages/meta/page-not-found/page-not-foun
 import { SearchComponent } from './pages/meta/search/search.component';
 import { SitemapComponent } from './pages/meta/sitemap/sitemap.component';
 import { EnvironmentalActivismResponsibilityComponent } from './pages/blogs/environmental-activism-responsibility/environmental-activism-responsibility.component';
-import { UsingLinuxDailyComponent } from './pages/using-linux-daily/using-linux-daily.component';
+import { UsingLinuxDailyComponent } from './pages/blogs/using-linux-daily/using-linux-daily.component';
 
 const routes: Routes = [
   // Core Pages

@@ -1,4 +1,4 @@
-<div *ngFor="let card of cardList">
+<div *ngFor="let card of cardListAvailable">
     <a [routerLink]=[card.route] routerLinkActive="active">
         <div class="button card">
             <h3>{{ card.name }}</h3>
@@ -7,3 +7,9 @@
         </div>
     </a>
 </div>
+
+<!-- <nav class="article-nav">
+    <button class="nav-button" (click)="backward()">ᐊ</button>
+    
+    <button class="nav-button" (click)="forward()">ᐅ</button>
+</nav> -->
