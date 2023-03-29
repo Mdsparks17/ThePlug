@@ -4,3 +4,16 @@
     max-width: 20%;
 }
 
+h3 {
+    transition-duration: .3ms;
+}
+
+h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a {
+    // color: $text;
+    text-decoration: none;
+}

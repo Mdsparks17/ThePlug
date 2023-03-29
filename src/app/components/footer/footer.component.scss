@@ -7,7 +7,25 @@ footer {
     min-height: 6rem;
 }
 
-a { font-family: $font; color: $text; text-decoration: underline; }
+a { font-family: $font; color: $text; text-decoration: none; }
 
 a:hover { color: $hover; }
+
+.mail {
+    font-size: 32px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 32px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    filter: invert(88%) sepia(14%) saturate(700%) hue-rotate(353deg) brightness(88%) contrast(70%);
+    margin: 0rem 1rem 1rem 1rem;
+}
 

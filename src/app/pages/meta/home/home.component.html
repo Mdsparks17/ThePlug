@@ -1,8 +1,26 @@
 <app-header></app-header>
 
-<h2>Home</h2>
+<h2>SiteMap</h2>
 <hr>
 
-<app-card-list [cardList]=mypages.pages></app-card-list>
+<div>
+    <a routerLink="/search" [queryParams]="{ query:'#blog' }" routerLinkActive="active"><h3 class="red">Blogs</h3></a>
+    <app-card-table [cardList]="blogQuery"></app-card-table>
+</div>
+
+<div> 
+    <a routerLink="/search" [queryParams]="{ query:'#list' }" routerLinkActive="active"><h3 class="orange">Lists</h3></a>
+    <app-card-table [cardList]="listQuery"></app-card-table>
+</div>
+
+<div>
+    <a routerLink="/search" [queryParams]="{ query:'#meta' }" routerLinkActive="active"><h3 class="teal">Meta</h3></a>
+    <app-card-table [cardList]="metaQuery"></app-card-table>
+</div>
+
+<div class="spacer"></div>
 
 <app-footer></app-footer>
+
+
+<a href="" target="_blank"></a>.

@@ -1,11 +1,13 @@
-<div *ngFor="let card of cardList">
-    <a [routerLink]=[card.route] routerLinkActive="active">
-
-        <div class="row orient-left entry">
-            <p class="meta-text date">{{ card.metadata.lastUpdatedTimestamp }}</p>
-            <p class="title">{{ card.name }}</p>
-            <!-- <app-tag-list class="tags" [myTags]="card.tags"></app-tag-list> -->
-        </div>
-
-    </a>
+<div class="table">
+    <div *ngFor="let card of cardList">
+        <a [routerLink]=[card.route] routerLinkActive="active">
+            <div class="row orient-left entry">
+                <p class="meta-text date">{{ card.metadata.lastUpdatedTimestamp }}</p>
+                <p class="title">{{ card.name }}</p>
+                <!-- <app-tag-list class="tags" [myTags]="card.tags"></app-tag-list> -->
+            </div>
+    
+        </a>
+    </div>
 </div>
+

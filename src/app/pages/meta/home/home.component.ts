@@ -8,13 +8,32 @@ import pages from 'src/assets/pages.json';
 })
 export class HomeComponent implements OnInit {
 
-  mypages = pages; 
+  blogQuery: any;
+  listQuery: any;
+  metaQuery: any;
+
+  mypages = pages;
 
   constructor() { }
 
   ngOnInit(): void {
-    this.mypages.pages.sort((a, b) =>
-      (a.metadata.lastUpdatedTimestamp > b.metadata.lastUpdatedTimestamp) ? -1 : 1)
+    this.blogQuery = this.search("#blog");
+    this.listQuery = this.search("#list");
+    this.metaQuery = this.search("#meta")
+  }
+
+  search(query: string) {
+    let list: any = [];
+
+    this.mypages.pages.forEach(page => {
+      for(let i = 0; i < page.tags.length; i++) {
+        if (page.tags[i] == query) {
+          list.push(page)
+        }
+      }
+    });
+
+    return list;
   }
 
 }
