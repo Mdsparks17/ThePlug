@@ -33,6 +33,8 @@ export class HomeComponent implements OnInit {
       }
     });
 
+    list.sort((a: any, b: any) => b.metadata.lastUpdatedTimestamp.localeCompare(a.metadata.lastUpdatedTimestamp))
+
     return list;
   }
 

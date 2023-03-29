@@ -1,11 +1,12 @@
 @import "/src/variables";
 
-.bmo {
-    max-width: 20%;
+.home-img {
+    max-width: 50%;
 }
 
 h3 {
     transition-duration: .3ms;
+    display: flex;
 }
 
 h3:hover {
