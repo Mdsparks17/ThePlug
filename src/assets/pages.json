@@ -88,6 +88,18 @@
                 "createdTimestamp": "2023/03/28",
                 "lastUpdatedTimestamp": "2023/03/28"
             }
+        },
+        {
+            "name": "Tic-Tac-Toe",
+            "route": "/tic-tac-toe",
+            "tags": [
+                "#project",
+                "#software"
+            ],
+            "metadata": {
+                "createdTimestamp": "2023/03/31",
+                "lastUpdatedTimestamp": "2023/03/31"
+            }
         }
     ]
 }

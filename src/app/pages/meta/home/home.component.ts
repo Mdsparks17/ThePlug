@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
 
   blogQuery: any;
   listQuery: any;
+  projectQuery: any;
   metaQuery: any;
 
   mypages = pages;
@@ -19,7 +20,9 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.blogQuery = this.search("#blog");
     this.listQuery = this.search("#list");
-    this.metaQuery = this.search("#meta")
+    this.projectQuery = this.search("#project")
+    this.metaQuery = this.search("#meta");
+
   }
 
   search(query: string) {

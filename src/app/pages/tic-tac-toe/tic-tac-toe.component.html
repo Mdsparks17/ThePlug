@@ -1,0 +1,54 @@
+<app-header></app-header>
+<app-title myPageName="Tic-Tac-Toe"></app-title>
+
+<div class="center">
+    <div class="row center" *ngIf="emote == 'Tic-Tac-Toe?'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-casual.gif">
+        <span>{{ emote }}</span>
+    </div>
+    <div class="row center" *ngIf="emote == 'Ez dub'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-win.gif">
+        <span>{{ emote }}</span>
+    </div>
+    <div class="row center" *ngIf="emote == 'Not so Fast!'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-smug.gif">
+        <span>{{ emote }}</span>
+    </div>
+    <div class="row center" *ngIf="emote == 'Pathetic'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-very-smug.gif">
+        <span>{{ emote }}</span>
+    </div>
+    <div class="row center" *ngIf="emote == 'Your Move'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-casual.gif">
+        <span>{{ emote }}</span>
+    </div>
+    <div class="row center" *ngIf="emote == '*Devastated*'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-lose.gif">
+        <span>{{ emote }}</span>
+    </div>
+    <div class="row center" *ngIf="emote == 'Try Again?'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-draw.gif">
+        <span>{{ emote }}</span>
+    </div>
+    <div class="row center" *ngIf="emote == 'NYAAAA!!!'">
+        <img (click)="necoAttacked()" class="neco" alt="neco-casual" src="./assets/images/neco-shook.gif">
+        <span>{{ emote }}</span>
+    </div>
+</div>
+
+<div class="center board">
+    <div *ngFor="let row of board; let i = index;">
+        <div *ngFor="let square of row; let j = index;" class="square" (click)="playerAction(i, j)">
+            <h3 *ngIf="square == 1" class="green">X</h3>
+            <h3 *ngIf="square == 2" class="red">O</h3>
+        </div>
+    </div>
+</div>
+
+<div class="center">
+    <button class="reset" (click)="reset()">Reset</button>
+</div>
+
+<div class="center">
+    <h2>{{ gameState }}</h2>
+</div>

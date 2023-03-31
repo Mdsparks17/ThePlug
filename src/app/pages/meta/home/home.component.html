@@ -16,6 +16,11 @@
 </div>
 
 <div>
+    <a routerLink="/search" [queryParams]="{ query:'#project' }" routerLinkActive="active"><h3 class="magenta">Projects</h3></a>
+    <app-card-table [cardList]="projectQuery"></app-card-table>
+</div>
+
+<div>
     <a routerLink="/search" [queryParams]="{ query:'#meta' }" routerLinkActive="active"><h3 class="teal">Meta</h3></a>
     <app-card-table [cardList]="metaQuery"></app-card-table>
 </div>

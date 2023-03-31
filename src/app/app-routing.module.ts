@@ -10,6 +10,7 @@ import { PageNotFoundComponent } from './pages/meta/page-not-found/page-not-foun
 import { SearchComponent } from './pages/meta/search/search.component';
 import { EnvironmentalActivismResponsibilityComponent } from './pages/blogs/environmental-activism-responsibility/environmental-activism-responsibility.component';
 import { UsingLinuxDailyComponent } from './pages/blogs/using-linux-daily/using-linux-daily.component';
+import { TicTacToeComponent } from './pages/tic-tac-toe/tic-tac-toe.component';
 
 const routes: Routes = [
   // Core Pages
@@ -24,6 +25,9 @@ const routes: Routes = [
   { path: 'movie', component: MovieListComponent },
   { path: 'environmental-activism-responsibility', component: EnvironmentalActivismResponsibilityComponent },
   { path: 'using-linux-daily', component: UsingLinuxDailyComponent },
+
+  // Projects
+  { path: 'tic-tac-toe', component: TicTacToeComponent },
 
   // Error Pages
   { path: '**', component: PageNotFoundComponent }
