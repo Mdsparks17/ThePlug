@@ -3,8 +3,6 @@
 <h2>Home</h2>
 <hr>
 
-
-
 <div>
     <button class="home-button"><a class="red" routerLink="/search" [queryParams]="{ query:'#blog' }" routerLinkActive="active">Blogs</a></button>
     <app-card-table [cardList]="blogQuery"></app-card-table>
