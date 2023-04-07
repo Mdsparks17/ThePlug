@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BingoGeneratorComponent implements OnInit {
   bingoCard = [
-    {topic: "Smash Melee", color: ""}
+    {topic: "temp", color: ""}
 
   ];
 
