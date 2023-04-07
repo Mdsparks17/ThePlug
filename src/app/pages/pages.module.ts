@@ -12,7 +12,8 @@ import { HowThisWebsiteWasMadeComponent } from './meta/how-this-website-was-made
 import { MovieListComponent } from './lists/movie-list/movie-list.component';
 import { EnvironmentalActivismResponsibilityComponent } from './blogs/environmental-activism-responsibility/environmental-activism-responsibility.component';
 import { UsingLinuxDailyComponent } from './blogs/using-linux-daily/using-linux-daily.component';
-import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
+import { TicTacToeComponent } from './projects/tic-tac-toe/tic-tac-toe.component';
+import { BingoGeneratorComponent } from './projects/bingo-generator/bingo-generator.component';
 
 
 
@@ -28,7 +29,8 @@ import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
     MovieListComponent,
     EnvironmentalActivismResponsibilityComponent,
     UsingLinuxDailyComponent,
-    TicTacToeComponent
+    TicTacToeComponent,
+    BingoGeneratorComponent
   ],
   imports: [
     CommonModule,

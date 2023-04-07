@@ -6,22 +6,22 @@
 
 
 <div>
-    <a routerLink="/search" [queryParams]="{ query:'#blog' }" routerLinkActive="active"><h3 class="red">Blogs</h3></a>
+    <button class="home-button"><a class="red" routerLink="/search" [queryParams]="{ query:'#blog' }" routerLinkActive="active">Blogs</a></button>
     <app-card-table [cardList]="blogQuery"></app-card-table>
 </div>
 
 <div> 
-    <a routerLink="/search" [queryParams]="{ query:'#list' }" routerLinkActive="active"><h3 class="orange">Lists</h3></a>
+    <button class="home-button"><a class="orange" routerLink="/search" [queryParams]="{ query:'#list' }" routerLinkActive="active">Lists</a></button>
     <app-card-table [cardList]="listQuery"></app-card-table>
 </div>
 
 <div>
-    <a routerLink="/search" [queryParams]="{ query:'#project' }" routerLinkActive="active"><h3 class="magenta">Projects</h3></a>
+    <button class="home-button"><a class="magenta" routerLink="/search" [queryParams]="{ query:'#project' }" routerLinkActive="active">Projects</a></button>
     <app-card-table [cardList]="projectQuery"></app-card-table>
 </div>
 
 <div>
-    <a routerLink="/search" [queryParams]="{ query:'#meta' }" routerLinkActive="active"><h3 class="teal">Meta</h3></a>
+    <button class="home-button"><a class="teal" routerLink="/search" [queryParams]="{ query:'#meta' }" routerLinkActive="active">Meta</a></button>
     <app-card-table [cardList]="metaQuery"></app-card-table>
 </div>
 

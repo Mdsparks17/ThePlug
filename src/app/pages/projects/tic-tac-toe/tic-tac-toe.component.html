@@ -36,7 +36,7 @@
     </div>
 </div>
 
-<div class="center board">
+<div class="center">
     <div *ngFor="let row of board; let i = index;">
         <div *ngFor="let square of row; let j = index;" class="square" (click)="playerAction(i, j)">
             <h3 *ngIf="square == 1" class="green">X</h3>

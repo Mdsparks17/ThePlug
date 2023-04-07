@@ -175,13 +175,13 @@ li::before { content: '\00a0○\00a0'}
 
 
 
-.red { color: $red; }
-.orange { color: $orange; }
-.yellow { color: $yellow; }
-.green { color: $green; }
-.teal { color: $teal; }
-.blue { color: $blue; }
-.magenta { color: $magenta; }
+.red { color: $red !important; }
+.orange { color: $orange !important; }
+.yellow { color: $yellow !important; }
+.green { color: $green !important; }
+.teal { color: $teal !important; }
+.blue { color: $blue !important; }
+.magenta { color: $magenta !important; }
 
 
 // CUSTOMIZATION
