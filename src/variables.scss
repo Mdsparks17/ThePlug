@@ -28,10 +28,32 @@ $magenta: #d3869b;
 // white   d4be98
 // default 202020
 
-// this converts white images into themed colors
+// this converts black images into themed colors
 .theme {
     filter: invert(88%) sepia(14%) saturate(700%) hue-rotate(353deg) brightness(88%) contrast(70%);
 }
+
+// // GRUVBOX THEME LIGHT
+// $text: #202020;         // text
+// $hover: #1d1b19;        // hover text
+// $primary4: #514945;     // active
+// $primary3: #776b65;     // active
+// $primary2: #998d87;     // hover
+// $primary: #d4be98;      // component background
+// $background: #fae0b3;   // background
+
+// $red: #ea6962;          // #blog
+// $orange: #ea8a62;       // #list
+// $yellow: #d8a657;       
+// $green: #a9b665;        // quotes
+// $teal: #65b68c;         // #meta
+// $blue: #7daea3;         // links
+// $magenta: #d3869b;
+// // this converts black images into themed colors
+// .theme {
+//     filter: invert(6%) sepia(32%) saturate(5%) hue-rotate(355deg) brightness(98%) contrast(86%);
+// }
+
 
 // MY FONTS
 $font: Roboto, Arial, Helvetica, sans-serif;
