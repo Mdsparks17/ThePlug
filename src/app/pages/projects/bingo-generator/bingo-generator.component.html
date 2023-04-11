@@ -8,8 +8,9 @@
 
 
     <div class="center board">
-        <div *ngFor="let card of bingoCard; let i = index;" class="square center text-center {{ card.color }}" (click)="onClick(i)">
-         {{ card.topic }}
+        <div *ngFor="let card of bingoCard; let i = index;" class="square center text-center {{ card.color }}"
+            (click)="onClick(i)">
+            {{ card.topic }}
         </div>
     </div>
 </div>

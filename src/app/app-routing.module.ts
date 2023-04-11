@@ -12,6 +12,7 @@ import { EnvironmentalActivismResponsibilityComponent } from './pages/blogs/envi
 import { UsingLinuxDailyComponent } from './pages/blogs/using-linux-daily/using-linux-daily.component';
 import { TicTacToeComponent } from './pages/projects/tic-tac-toe/tic-tac-toe.component';
 import { BingoGeneratorComponent } from './pages/projects/bingo-generator/bingo-generator.component';
+import { AlienShrineComponent } from './pages/blogs/alien-shrine/alien-shrine.component';
 
 const routes: Routes = [
   // Core Pages
@@ -26,6 +27,8 @@ const routes: Routes = [
   { path: 'movie', component: MovieListComponent },
   { path: 'environmental-activism-responsibility', component: EnvironmentalActivismResponsibilityComponent },
   { path: 'using-linux-daily', component: UsingLinuxDailyComponent },
+  { path: 'alien-shrine', component: AlienShrineComponent },
+
 
   // Projects
   { path: 'tic-tac-toe', component: TicTacToeComponent },

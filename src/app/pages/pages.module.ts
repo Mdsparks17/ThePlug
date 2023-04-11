@@ -14,6 +14,7 @@ import { EnvironmentalActivismResponsibilityComponent } from './blogs/environmen
 import { UsingLinuxDailyComponent } from './blogs/using-linux-daily/using-linux-daily.component';
 import { TicTacToeComponent } from './projects/tic-tac-toe/tic-tac-toe.component';
 import { BingoGeneratorComponent } from './projects/bingo-generator/bingo-generator.component';
+import { AlienShrineComponent } from './blogs/alien-shrine/alien-shrine.component';
 
 
 
@@ -30,7 +31,8 @@ import { BingoGeneratorComponent } from './projects/bingo-generator/bingo-genera
     EnvironmentalActivismResponsibilityComponent,
     UsingLinuxDailyComponent,
     TicTacToeComponent,
-    BingoGeneratorComponent
+    BingoGeneratorComponent,
+    AlienShrineComponent
   ],
   imports: [
     CommonModule,
