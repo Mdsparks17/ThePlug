@@ -112,6 +112,18 @@
                 "createdTimestamp": "2023/04/06",
                 "lastUpdatedTimestamp": "2023/04/06"
             }
+        },
+        {
+            "name": "Alien Shrine",
+            "route": "/alien-shrine",
+            "tags": [
+                "#blog",
+                "#shrine"
+            ],
+            "metadata": {
+                "createdTimestamp": "2023/04/11",
+                "lastUpdatedTimestamp": "2023/04/11"
+            }
         }
     ]
 }
