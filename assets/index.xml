@@ -1,21 +1,20 @@
-<rss>
+<rss version="2.0">
     <channel>
         <title>ThePlug</title>
         <link>https://theplug.icu/</link>
         <description>Recent content on ThePlug</description>
         <language>en</language>
         <webMaster>mdsparks17@gmail.com</webMaster>
+        <managingEditor>Sparks</managingEditor>
         <!-- Update Regularly -->
         <lastBuildDate>Fri, 14 Apr 2023 07:43:45 +0000</lastBuildDate>
 
-    <!-- Content  -->
-    <item>
-        <title>Alien Shrine</title>
-        <link>https://theplug.icu/alien-shrine</link>
-        <pubDate>Thu, 11 Apr 2023 07:35:01 +0000</pubDate>
-        <author>Sparks</author>
-        <description>#blog #shrine</description>
-    </item>
-
+        <!-- Content  -->
+        <item>
+            <title>Alien Shrine</title>
+            <link>https://theplug.icu/alien-shrine</link>
+            <pubDate>Thu, 11 Apr 2023 07:35:01 +0000</pubDate>
+            <description>#blog #shrine</description>
+        </item>
     </channel>
 </rss>
