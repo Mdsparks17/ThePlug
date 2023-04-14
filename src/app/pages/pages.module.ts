@@ -16,8 +16,6 @@ import { TicTacToeComponent } from './projects/tic-tac-toe/tic-tac-toe.component
 import { BingoGeneratorComponent } from './projects/bingo-generator/bingo-generator.component';
 import { AlienShrineComponent } from './blogs/alien-shrine/alien-shrine.component';
 
-
-
 @NgModule({
   declarations: [
     SearchComponent,
