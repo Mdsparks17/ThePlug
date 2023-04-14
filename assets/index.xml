@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ThePlug</title>
+        <link>https://theplug.icu/</link>
+        <description>Recent content on ThePlug</description>
+        <language>en</language>
+        <webMaster>mdsparks17@gmail.com</webMaster> 
+        <!-- Update Regularly -->
+        <lastBuildDate>14 Apr 2023</lastBuildDate> 
+        <atom:link href="https://sizeof.cat/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+
+    <!-- Content  -->
+    <item>
+        <title>Alien Shrine</title>
+        <link>https://theplug.icu/alien-shrine</link>
+        <pubDate>11 Apr 2023</pubDate>
+        <author>Sparks</author>
+        <description>#blog #shrine</description>
+    </item>
+
+</rss>
