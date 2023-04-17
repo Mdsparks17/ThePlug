@@ -4,6 +4,9 @@
     filter: invert(91%) sepia(22%) saturate(534%) hue-rotate(48deg) brightness(101%) contrast(99%);
 }
 
+$text: #c6feb5;
+
+
 @media only screen and (max-width: 750px) {
     header {
         display: flex;
@@ -96,6 +99,7 @@ nav {
     font-size: 1.8rem;
     text-align: center;
     line-height: 2em;
+    color: black;
 }
 
 .item {
@@ -188,16 +192,16 @@ nav {
     transition: all 0.35s;
 }
 
-hr {
-    background-color: #c6feb5;
-}
-
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 6rem;
 }
+
+a { font-family: $font; color: $text; text-decoration: none; }
+
+a:hover { color: $hover; }
 
 .mail {
     font-size: 32px;
@@ -213,5 +217,21 @@ footer {
 .icon {
     width: 32px;
     height: 32px;
-    margin: 0rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 0 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+hr {
+    background-color: #c6feb5;
+}
+
+div {
+    color: #c6feb5;
+}
+
+.black {
+    color: black;
 }
