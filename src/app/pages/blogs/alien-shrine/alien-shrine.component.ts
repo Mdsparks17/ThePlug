@@ -10,6 +10,7 @@ export class AlienShrineComponent implements OnInit {
   constructor() { 
     document.body.style.backgroundImage = "url('./assets/images/star-bg.gif')";
     document.body.style.backgroundSize = "20%";
+    document.getElementById('content')!.style.backgroundColor = "transparent";
 
   }
 
