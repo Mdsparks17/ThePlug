@@ -3,6 +3,18 @@
 <h2>Home</h2>
 <hr>
 
+<h3>Hello Recruiters!</h3>
+
+<p>It's a pleasure to have you here.</p> 
+<p>
+    Normally this is a personal blog site, but I would like for it to double as a project hub and skill showcase. 
+    I encourage you to take a look at <a routerLink="/how-this-website-was-made" routerLinkActive="active">how this website was made</a>. Beyond what you can see here and the related repo, I would like to use this website to prove my competency in managing a backend, managing a database, self hosting, homelabbing, resilient code, accessibility, so on. 
+</p>
+
+<p>Can't wait to hear from you soon!</p>
+
+<hr>
+
 <div>
     <button class="home-button"><a class="red" routerLink="/search" [queryParams]="{ query:'#blog' }" routerLinkActive="active">Blogs</a></button>
     <app-card-table [cardList]="blogQuery"></app-card-table>
@@ -21,12 +33,6 @@
 <div>
     <button class="home-button"><a class="teal" routerLink="/search" [queryParams]="{ query:'#meta' }" routerLinkActive="active">Meta</a></button>
     <app-card-table [cardList]="metaQuery"></app-card-table>
-</div>
-
-<div class="spacer"></div>
-
-<div class="center">
-    <img class="home-img" alt="Logo" src="./assets/images/bmo.gif">
 </div>
 
 <div class="spacer"></div>
