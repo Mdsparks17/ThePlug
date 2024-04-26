@@ -15,6 +15,7 @@ import { UsingLinuxDailyComponent } from './blogs/using-linux-daily/using-linux-
 import { TicTacToeComponent } from './projects/tic-tac-toe/tic-tac-toe.component';
 import { BingoGeneratorComponent } from './projects/bingo-generator/bingo-generator.component';
 import { AlienShrineComponent } from './blogs/alien-shrine/alien-shrine.component';
+import { HtmlPracticeComponent } from './projects/html-practice/html-practice.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AlienShrineComponent } from './blogs/alien-shrine/alien-shrine.componen
     UsingLinuxDailyComponent,
     TicTacToeComponent,
     BingoGeneratorComponent,
-    AlienShrineComponent
+    AlienShrineComponent,
+    HtmlPracticeComponent
   ],
   imports: [
     CommonModule,

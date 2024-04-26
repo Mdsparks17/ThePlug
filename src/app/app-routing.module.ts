@@ -13,6 +13,8 @@ import { UsingLinuxDailyComponent } from './pages/blogs/using-linux-daily/using-
 import { TicTacToeComponent } from './pages/projects/tic-tac-toe/tic-tac-toe.component';
 import { BingoGeneratorComponent } from './pages/projects/bingo-generator/bingo-generator.component';
 import { AlienShrineComponent } from './pages/blogs/alien-shrine/alien-shrine.component';
+import { HtmlPracticeComponent } from './pages/projects/html-practice/html-practice.component';
+
 
 const routes: Routes = [
   // Core Pages
@@ -29,11 +31,10 @@ const routes: Routes = [
   { path: 'using-linux-daily', component: UsingLinuxDailyComponent },
   { path: 'alien-shrine', component: AlienShrineComponent },
 
-
   // Projects
   { path: 'tic-tac-toe', component: TicTacToeComponent },
   { path: 'bingo-generator', component: BingoGeneratorComponent },
-
+  { path: 'html-practice', component: HtmlPracticeComponent },
 
   // Error Pages
   { path: '**', component: PageNotFoundComponent }
