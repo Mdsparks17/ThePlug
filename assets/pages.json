@@ -136,6 +136,18 @@
                 "createdTimestamp": "2024/04/26",
                 "lastUpdatedTimestamp": "2024/04/26"
             }
+        },
+        {
+            "name": "Javascript Practice",
+            "route": "/javascript-practice",
+            "tags": [
+                "#project",
+                "#software"
+            ],
+            "metadata": {
+                "createdTimestamp": "2024/04/30",
+                "lastUpdatedTimestamp": "2024/04/30"
+            }
         }
     ]
 }
