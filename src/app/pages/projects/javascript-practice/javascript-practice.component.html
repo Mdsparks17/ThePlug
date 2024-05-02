@@ -3,7 +3,22 @@
 
 <p>This page is for showcasing and self-reminding how to do some advanced Javascript techniques. Feel free to poke around or dive in yourself!</p>
 
+<p>(In-progress)</p>
+
 <h2>Understanding Synchronous vs Asynchronous:</h2>
+
+<div>
+    <div><code>document.write(</code><code>&quot;Hi&quot;</code><code>);</code></div>
+    <div><code>document.write(</code><code>&quot;&lt;br&gt;&quot;</code><code>);</code></div>
+    <div>&nbsp;</div>
+    <div><code>setTimeout(() =&gt; &#123;</code></div>
+    <div><code>&nbsp; &nbsp;&nbsp;</code><code>document.write(</code><code>&quot;Let us see what happens&quot;</code><code>);</code></div>
+    <div><code>&#125;, 2000);</code></div>
+    <div>&nbsp;</div>
+    <div><code>document.write(</code><code>&quot;&lt;br&gt;&quot;</code><code>);</code></div>
+    <div><code>document.write(</code><code>&quot;End&quot;</code><code>);</code></div>
+    <div><code>document.write(</code><code>&quot;&lt;br&gt;&quot;</code><code>);</code></div>
+</div>
 
 
 <app-footer></app-footer>
