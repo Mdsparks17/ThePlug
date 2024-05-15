@@ -17,6 +17,7 @@ import { BingoGeneratorComponent } from './projects/bingo-generator/bingo-genera
 import { AlienShrineComponent } from './blogs/alien-shrine/alien-shrine.component';
 import { HtmlPracticeComponent } from './projects/html-practice/html-practice.component';
 import { JavascriptPracticeComponent } from './projects/javascript-practice/javascript-practice.component';
+import { CssPracticeComponent } from './projects/css-practice/css-practice.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { JavascriptPracticeComponent } from './projects/javascript-practice/java
     BingoGeneratorComponent,
     AlienShrineComponent,
     HtmlPracticeComponent,
-    JavascriptPracticeComponent
+    JavascriptPracticeComponent,
+    CssPracticeComponent
   ],
   imports: [
     CommonModule,

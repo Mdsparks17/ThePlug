@@ -15,6 +15,7 @@ import { BingoGeneratorComponent } from './pages/projects/bingo-generator/bingo-
 import { AlienShrineComponent } from './pages/blogs/alien-shrine/alien-shrine.component';
 import { HtmlPracticeComponent } from './pages/projects/html-practice/html-practice.component';
 import { JavascriptPracticeComponent } from './pages/projects/javascript-practice/javascript-practice.component';
+import { CssPracticeComponent } from './pages/projects/css-practice/css-practice.component';
 
 
 const routes: Routes = [
@@ -37,7 +38,9 @@ const routes: Routes = [
   { path: 'bingo-generator', component: BingoGeneratorComponent },
   { path: 'html-practice', component: HtmlPracticeComponent },
   { path: 'javascript-practice', component: JavascriptPracticeComponent },
+  { path: 'css-practice', component: CssPracticeComponent },
 
+  
   
   // Error Pages
   { path: '**', component: PageNotFoundComponent }
