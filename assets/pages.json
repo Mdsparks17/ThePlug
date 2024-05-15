@@ -148,6 +148,18 @@
                 "createdTimestamp": "2024/04/30",
                 "lastUpdatedTimestamp": "2024/04/30"
             }
+        },
+        {
+            "name": "CSS Practice",
+            "route": "/css-practice",
+            "tags": [
+                "#project",
+                "#software"
+            ],
+            "metadata": {
+                "createdTimestamp": "2024/05/15",
+                "lastUpdatedTimestamp": "2024/05/15"
+            }
         }
     ]
 }
