@@ -40,8 +40,6 @@ const routes: Routes = [
   { path: 'javascript-practice', component: JavascriptPracticeComponent },
   { path: 'css-practice', component: CssPracticeComponent },
 
-  
-  
   // Error Pages
   { path: '**', component: PageNotFoundComponent }
 ];
